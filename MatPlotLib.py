@@ -39,4 +39,10 @@ plt.grid()
 plt.show()
 
 
-#Graficos de dispercion con scatter
+#Graficos de dispercion
+
+plt.scatter([1, 2, 3, 4], [10, 25, 18, 35])
+
+#Grafico histograma
+
+plt.hist([10, 15, 20, 25, 30, 35], bins=5)
