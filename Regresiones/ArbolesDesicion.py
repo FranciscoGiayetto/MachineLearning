@@ -34,4 +34,6 @@ plt.xlabel("Datos de entrada")
 plt.ylabel("Variable de salida")
 plt.title("Árbol de decisión para regresión")
 plt.legend()
-plt.show()
+#plt.show()
+
+print('Precisión del modelo: ', regressor.score(X_test, y_test))
